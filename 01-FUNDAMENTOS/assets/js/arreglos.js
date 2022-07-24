@@ -14,6 +14,17 @@ let arregloCosas = [
   123,
   'Pablo',
   1 + 2,
+  function () {},
+  () => {},
+  {
+    a: 1
+  },
+  ['X', 'Megaman', 'Zero', 'Dr. Light', [
+    'Dr. Willy',
+    'Woodman'
+  ]]
 ];
 
-console.log(arregloCosas);
+// console.log(arregloCosas);
+console.log(arregloCosas[0])
+console.log(arregloCosas[7][4][1])
