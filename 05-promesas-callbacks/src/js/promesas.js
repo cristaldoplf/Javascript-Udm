@@ -31,7 +31,6 @@ export const buscarHeroe = (id) => {
 //ponemos async antes de la funcion para transformarla y resume toda la estructura.
 export const buscarHeroeAsync = async (id) => {
   const heroe = heroes[id];
-
   if (heroe) {
     return heroe;
   } else {
